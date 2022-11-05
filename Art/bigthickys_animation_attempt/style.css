@@ -1,0 +1,51 @@
+.title-word {
+	animation: color-animation 3.5s 
+linear infinite;
+}
+
+.word-1 {
+/*	--color-1: #ce7e00;
+	--color-2: #744700;
+	--color-3: #e2a648;*/
+	--color-1: #ffd966;
+	--color-2: #b2bc00;
+	--color-3: #e55451;
+}
+
+.word-2 {
+	
+	--color-1: #b2bc00;
+	--color-2: #e55451;
+	--color-3: #ffd966;
+}
+
+.word-3 {
+	
+/*	--color-1: #b2bc00;
+	--color-2: #00b2bc;
+	--color-3: #bc00b2;*/
+	--color-1: #b2bc00;
+	--color-2: #ffd966;
+	--color-3: #e55451;
+}
+
+@keyframes color-animation {
+  0%    {color: var(--color-1)}
+  32%   {color: var(--color-1)}
+  33%   {color: var(--color-2)}
+  65%   {color: var(--color-2)}
+  66%   {color: var(--color-3)}
+  100%   {color: var(--color-3)}
+  /*100%  {color: var(--color-1)}*/
+}
+
+.container {
+	display: grid;
+	place-items: center;
+	align-content: center;
+}
+
+h1 {
+	font-family: "Bodoni 72 Oldstyle";
+	font-weight: 100;
+	
